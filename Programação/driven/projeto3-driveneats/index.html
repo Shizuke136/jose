@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>DrivenEats</title>
+</head>
+
+<body>
+    <div class="topo">
+        <h1>DrivenEats</h1>
+        <p>Sua comida em 6 minutos</p>
+    </div>
+
+    <main>
+
+        <div class="opcoes">
+            <h1>Primeiro, seu prato</h1>
+            <div class="pratos">
+
+                <div class="comida quadro" onclick="marcar(this,'comida')">
+                    <img src="images/salmao.jpg">
+                    <p>Salmão</p>
+                    <p>Um pouco de frango, um pouco de salada</p>
+                    <p>R$ <span class="preco">14,90</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon>
+                </div>
+
+                <div class="comida quadro" onclick="marcar(this,'comida')">
+                    <img src="images/salmao.jpg">
+                    <p>Salmão</p>
+                    <p>Um pouco de frango, um pouco de salada</p>
+                    <p>R$ <span class="preco">10,90</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+
+
+                <div class="comida quadro" onclick="marcar(this,'comida')">
+                    <img src="images/salmao.jpg">
+                    <p>Salmão</p>
+                    <p>Um pouco de frango, um pouco de salada</p>
+                    <p>R$ <span class="preco">7,20</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="opcoes">
+            <h1>Agora, sua bebida</h1>
+            <div class="pratos">
+
+                <div class="bebida quadro" onclick="marcar(this,'bebida')">
+                    <img src="images/coquinha.jpg">
+                    <p>Coquinha Gelada</p>
+                    <p>Lata 350ml</p>
+                    <p>R$ <span class="preco">4,90</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+
+                <div class="bebida quadro" onclick="marcar(this,'bebida')">
+                    <img src="images/coquinha.jpg">
+                    <p>Coquinha Gelada</p>
+                    <p>Lata 350ml</p>
+                    <p>R$ <span class="preco">5,30</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+
+
+                <div class="bebida quadro" onclick="marcar(this,'bebida')">
+                    <img src="images/coquinha.jpg">
+                    <p>Coquinha Gelada</p>
+                    <p>Lata 350ml</p>
+                    <p>R$ <span class="preco">7,80</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="opcoes" id="sobremesa">
+            <h1>Por fim, sua sobremesa</h1>
+            <div class="pratos">
+
+                <div class="doce quadro" onclick="marcar(this,'doce')">
+                    <img src="images/sorvete.jpg">
+                    <p>Sorvete</p>
+                    <p>Apenas sorvete</p>
+                    <p>R$ <span class="preco">11,90</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+
+                <div class="doce quadro" onclick="marcar(this,'doce')">
+                    <img src="images/sorvete.jpg">
+                    <p>Sorvete</p>
+                    <p>Apenas sorvete</p>
+                    <p>R$ <span class="preco">6,30</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+
+
+                <div class="doce quadro" onclick="marcar(this,'doce')">
+                    <img src="images/sorvete.jpg">
+                    <p>Sorvete</p>
+                    <p>Apenas sorvete</p>
+                    <p>R$ <span class="preco">5,90</span></p>
+                    <ion-icon name="checkmark-circle" class="check"></ion-icon></ion-icon>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="final">
+        <button class="button-nao-pode-comprar">
+            <p>Selecione os 3 itens <br> para fechar o pedido</p>
+        </button>
+        <button class="button-pode-comprar" onclick="fechar_pedido()">
+            <p>Fechar pedido</p>
+        </button>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>

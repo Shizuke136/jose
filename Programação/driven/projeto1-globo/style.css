@@ -1,0 +1,227 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 1250px;
+    margin: 0 auto 0 auto;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.logo{
+    height: 36px;
+    width: 171px;
+}
+
+.topo{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_menu{
+    border-top: 1px solid #F5F6F7;
+    border-bottom: 1px solid #F5F6F7;
+}
+
+.menu{
+    margin: 0 auto 0 auto;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    display:flex;
+}
+
+.metade_direita{
+    display: flex;
+    justify-content: space-around;
+}
+
+.coluna_1{
+    margin-top: 36px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.coluna_2{
+    margin-top: 36px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.texto_principal{
+    margin-top: 34px;
+    margin-bottom: 29px;
+    color: #C4160C;
+    font-size: 52px;
+    font-weight: 700;
+    width: 100%;
+    margin-right: 0;
+}
+
+.texto_secundario{
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.divisa_horizontal{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #EBEDEF;
+    width: 100%;
+}
+
+.divisa_vertical{
+    height: 845px;
+    border: 0.5px solid #EBEDEF;
+    background-color: #EBEDEF;
+    margin: 36px 36px 32px 36px; 
+}
+
+.conteiner{
+    display:flex;
+    justify-content: space-around;
+}
+
+.bloco_noticia{
+    display: flex;
+    flex-direction: column;
+    width:193px;
+}
+
+.bloco_noticia_coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:240px;
+}
+
+
+.imagem_noticia{
+    border-radius: 12px;
+    height: 110px;
+    width: 193px;
+}
+
+.imagem_noticia_coluna{
+    border-radius: 12px;
+    height: 128px;
+    width: 240px;
+}
+
+
+.titulo_noticia{
+    margin-top: 11px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#C4170C
+}
+
+.titulo_esporte {
+    margin-top: 11px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#16AE54;
+
+}
+
+.titulo_gshow{
+    margin-top: 11px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EC8006;
+    ;
+}
+
+.texto_1_noticia{
+    margin-bottom: 4.5px;
+    font-size: 20px;
+    color: #2F3134;
+    font-weight: bold;
+}
+
+.texto_2_noticia{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    color: #2F3134;
+
+}
+
+#g1{
+    color:#C3170C;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#o_globo{
+    color:#1E4B9B;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#valor{
+    color: #006766;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#ge{
+    color: #07AA47;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#cartola{
+    color:#E3662B;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#globoplay{
+    color: #FB0735;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#dropz{
+    color:#FF75BB;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#gshow{
+    color:#EC7D00;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#quem{
+    color: #323333;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#receitas{
+    color: #A81D83;
+    font-size: 19px;
+    font-weight: 700;
+}
